@@ -33,6 +33,8 @@
 }
 
 #h-12 {
+  width: 10px;
+  text-align: center;
   position: absolute;
   right: 50%;
   top: 0;
