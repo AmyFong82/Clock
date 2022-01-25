@@ -6,12 +6,22 @@
   border-radius: 50%;
 }
 
-#second-hand {
-  width: 1px;
-  height: 200px;
-  background-color: red;
+#second-hand, #minute-hand, #hour-hand {
   position: absolute;
   right: 50%;
   bottom: 50%;
   transform-origin: bottom;
+}
+
+
+#second-hand {
+  width: 1px;
+  height: 200px;
+  background-color: red;
+}
+
+#minute-hand {
+  width: 3px;
+  height: 200px;
+  background-color: gray;
 }
