@@ -13,7 +13,6 @@
   transform-origin: bottom;
 }
 
-
 #second-hand {
   width: 1px;
   height: 200px;
@@ -23,5 +22,11 @@
 #minute-hand {
   width: 3px;
   height: 180px;
-  background-color: gray;
+  background-color: black;
+}
+
+#hour-hand {
+  width: 4px;
+  height: 100px;
+  background-color: black;
 }
